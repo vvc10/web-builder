@@ -170,4 +170,8 @@ html {
   .gjs-pn-options {
     right: 5%;
   }
+  .gjs-pn-panel>.gjs-pn-buttons>.fa {
+    background-color: rgb(218, 230, 255, .5) !important;
+    margin: 0.5rem 0.3rem;
+}
 }

@@ -24,9 +24,8 @@ html {
 .gjs-pn-options {
   right: 15%;
   top: 0;
-
+ 
 }
-
 .gjs-pn-options {
   right: 15%;
   top: 0;
@@ -34,9 +33,8 @@ html {
   border-radius: 5px;
   background-color: #ffffff;
 }
-
 .gjs-pn-views {
-  border-bottom: 2px solid rgba(0, 0, 0, .2);
+  border-bottom: 2px solid rgba(0,0,0,.2);
   right: 0;
   width: 15%;
   z-index: 4;
@@ -44,7 +42,6 @@ html {
   border-radius: 5px;
   background-color: #eef1ff;
 }
-
 .gjs-pn-commands {
   border: 0px solid transparent;
   width: 85%;
@@ -53,18 +50,17 @@ html {
   top: 0;
   /* box-shadow: 0 0 5px rgba(0,0,0,.2); */
 }
-
-.gjs-pn-panel>.gjs-pn-buttons>.fa {
-  background-color: rgb(218, 230, 255) !important;
-  margin: .5rem .3rem;
+.gjs-pn-panel>.gjs-pn-buttons>.fa{
+background-color: rgb(218, 230, 255) !important;
+margin: .5rem .3rem;
 }
 
 .gjs-pn-panel {
-
-  height: 3rem;
-  padding: 4px;
-  position: fixed;
-
+  
+    height: 3rem;
+    padding: 4px;
+    position: fixed;
+ 
 }
 
 .gjs-pn-views-container {
@@ -74,39 +70,31 @@ html {
   width: 15%;
   top: 0%;
   overflow: auto;
-  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  box-shadow: 0 0 5px rgba(0,0,0,.2);}
+  .gjs-four-color {
+    color: #000000;
 }
+  .gjs-layer-vis {
 
-.gjs-four-color {
-  color: #000000;
+    color: black;
 }
-
-.gjs-layer-vis {
-
-  color: black;
-}
-
 .gjs-layer-move {
   color: black;
 }
-
 .gjs-layer-count {
   position: absolute;
   right: 27px;
   top: 9px;
   color: #686868;
 }
-
-.gjs-editor>.gjs-cv-canvas {
+.gjs-editor> .gjs-cv-canvas{
   margin-top: 1rem;
 }
-
 .gjs-block-categories {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-
 .gjs-block-category {
   width: 90%;
   margin: 0 0.5rem;
@@ -115,7 +103,6 @@ html {
   border: 0px solid transparent;
   outline: 0px solid transparent;
 }
-
 .tagit {
   background-color: transparent;
   position: absolute;
@@ -123,23 +110,20 @@ html {
   margin: 0 20%;
   width: fit-content;
 }
-
-.tagit>p {
-  background-color: rgb(212, 227, 255);
-  padding: 5px 10px !important;
+.tagit>a{
+  color: black;
+  padding: 2px 10px !important;
   border-radius: 5px;
-  font-size: 14px;
-  padding: 0px;
+  font-size: 16px;
+  padding: 0px ;
 }
-
-.tagit>p>a {
+.tagit>p>a{
   text-align: center;
-  text-decoration: underline;
-  font-weight: 600;
-  font-style: italic;
-
+  text-decoration: none;
+  color: black;
+ 
+  
 }
-
 .gjs-three-bg {
   background-color: #a4abff;
 }
@@ -149,29 +133,21 @@ html {
     width: 0% !important;
   }
 
-  .gjs-editor>.gjs-cv-canvas {
+  .gjs-editor> .gjs-cv-canvas{
     width: 100% !important;
   }
-
   .gjs-pn-views {
+ 
     display: none;
-  }
-
-  .gjs-pn-buttons {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .gjs-pn-commands {
-    border: 0px solid transparent;
-    width: 100%;
-  }
-
-  .gjs-pn-options {
-    right: 5%;
-  }
-  .gjs-pn-panel>.gjs-pn-buttons>.fa {
-    background-color: rgb(218, 230, 255, .5) !important;
-    margin: 0.5rem 0.3rem;
+}
+.gjs-pn-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.gjs-pn-commands {
+  border: 0px solid transparent;   width: 100%;
+}
+.gjs-pn-options {
+  right: 5%;
 }
 }
